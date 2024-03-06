@@ -1,49 +1,46 @@
-# x = int(100)
-# print("Number is" + str(x))
+x = int(100)
+print("Number is " + str(x))
 
+Number1 = "50"
+Number2 = "20"
+print(int(Number1) + int(Number2))
 
-#Number1 = "10"
-#Number2 = "10"
-#print (int(Number1) + int (Number2))
+Fname = input("Enter First Name: ")
+Lname = input("Enter Last Name: ")
+email = input("Enter Email: ")
+print("First Name: " + Fname)
+print("Last Name: " + Lname)
+print("Email: " + email)
 
+name = "Jackie"
+food = "cake"
+game = "mobile legends"
 
-#name = input("Enter Your Full Name: ")
-#email = input("Enter Email:" )
-#print ("Name: " + name)
-#print ("Email: " + email)
+sampleText1 = "My name is {} i love {} and playing {}"
+sampleText1a = sampleText1.format(name, food, game)
+print(sampleText1a)
 
-#name = "Anna"
-#food = "burger"
-#game = "console"
+sampleText2 = "My name is {2} i love {0} and playing {1}"
+sampleText2a = sampleText2.format(name, food, game)
+print(sampleText2a)
 
-SampleText1 = "My name is {} I love {} and playing {}"
-SampleText1a = SampleText1.format(name, food, game)
-print(SampleText1a)
+sampleText3 = "My name is {newfood} i love {newname} and playing {newname}"
+sampleText3a = sampleText3.format(newname="Mark", newfood="macaroni", newgame="basketball")
+print(sampleText3a)
 
-SampleText2 = "My name is {0} i love {1} and playing {2}"
-SampleText2a = SampleText2.format(name, food, game)
-print(SampleText2a)
+item = "Dairy milk"
+cost = 125.5
+sampleText4 = "The product %s costs %.5f" % (item, cost)
+print(sampleText4)
 
-SampleText3 = "My name is {newname} i love { newfood} and playing {newgame}"
-SampleText3a = SampleText3.format(newname="Mike", newfood="Cake", newgame="PSP ")
-print(SampleText3a)
+import english
+grade1 = 89.4
+grade2 = 87.555
 
-
-#string placeholders %
-item = "cake"
-cost = 450.57
-
-sampletext4 = "The product %s cost %.if" % (item, cost)
-print(sampletext4)
-
-import math
-grade1 = 95.6534567
-grade2 = 95.8973214
-
-print(round(grade1, 1))
-print(math.ceil(grade1))
-print(math.ceil(grade2))
-print(math.floor(grade1))
-print(math.floor(grade2))
-print(pow(2,3))
+print(round(grade1,1))
+print(english.ceil(grade1))
+print(english.ceil(grade2))
+print(english.floor(grade1))
+print(english.floor(grade2))
+print(pow(8,3))
 print(2**3)

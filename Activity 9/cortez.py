@@ -4,8 +4,8 @@ class employee:
             self.email = email
             self.phone_no = phone_no
 
-emp1 = employee("Courage Dog", "couragecowardly@gmail.com", "123456")
-emp2 = employee("Steven Universe", "stevenuniverse@gmail.com", "654321")
+emp1 = employee("Courage Dog", "couragecowardly@gmail.com", "09706157078")
+emp2 = employee("Steven Universe", "stevenuniverse@gmail.com", "09300217525")
 
 print(f"Name:{emp1.name} \nEmail:{emp1.email} \nPhone:{emp1.phone_no}")
 print()
